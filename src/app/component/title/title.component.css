@@ -1,0 +1,24 @@
+body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  div {
+    cursor: pointer;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    color: #27378d;
+    font-size: 3vmin;
+    font-weight: 100;
+    transition: font-weight 250ms ease-in-out;
+  }
+  
+  div:hover {
+    font-weight: 900;
+  }
+  
+  

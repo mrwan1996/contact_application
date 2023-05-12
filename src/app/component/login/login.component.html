@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="screen">
+    <div class="screen__content">
+      <form class="login" (submit)="onlogin()">
+        <h1 class="login__title">Log In</h1>
+        <div class="login__field">
+          <i class="fas fa-user login__icon"></i>
+          <input class="login__input" type="text" placeholder="User Name" required   [(ngModel)]="name" name="name">
+        </div>
+        <div class="login__field">
+          <i class="fas fa-lock login__icon"></i>
+          <input class="login__input" type="password" placeholder="Password" required  [(ngModel)]="password" name="password">
+        </div>
+		<app-btn text="log in"></app-btn>
+
+      </form>
+    </div>
+    <div class="screen__background">
+      <span class="screen__background__shape screen__background__shape4"></span>
+      <span class="screen__background__shape screen__background__shape3"></span>
+      <span class="screen__background__shape screen__background__shape2"></span>
+      <span class="screen__background__shape screen__background__shape1"></span>
+    </div>
+  </div>
+</div>

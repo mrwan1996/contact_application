@@ -1,0 +1,6 @@
+.table-header {
+    display: flex;
+    width: 100%;
+    background: #b48f8f;
+    padding: 18px 0;
+  }
